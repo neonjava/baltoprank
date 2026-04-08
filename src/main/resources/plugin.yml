@@ -1,0 +1,12 @@
+name: BaltopRank
+version: 1.0
+main: space.toolbyte.baltoprank.BaltopRank
+api-version: '1.20'
+depend: [Vault, LuckPerms, Essentials]
+authors: [Antigravity, neonjavadev]
+description: Managed suffix for the top player on Baltop.
+
+commands:
+  baltoprank:
+    description: Manually check baltop and update suffix.
+    permission: baltoprank.admin
